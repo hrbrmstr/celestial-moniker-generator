@@ -1,0 +1,19 @@
+{
+  "name": "celstial-moniker",
+  "version": "0.1.0",
+  "description": "Generate a vector of `n` believable celestial (planetary) names using hidden Markov model.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./test/index.test.js "
+  },
+  "repository": "https://github.com/hrbrmstr/celestial-moniker",
+  "keywords": [
+    "markov",
+    "celestial",
+    "planets",
+    "planet-name-generator"
+  ],
+  "author": "boB Rudis",
+  "license": "ISC"
+}
