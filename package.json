@@ -1,6 +1,6 @@
 {
 	"name": "celstial-monikers",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"description": "Generate a vector of `n` believable celestial (planetary) names using hidden Markov model.",
 	"main": "src/index.js",
 	"type": "module",
