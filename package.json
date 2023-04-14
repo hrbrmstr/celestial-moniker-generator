@@ -1,19 +1,47 @@
 {
-  "name": "celstial-moniker",
-  "version": "0.1.0",
-  "description": "Generate a vector of `n` believable celestial (planetary) names using hidden Markov model.",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "node ./test/index.test.js "
-  },
-  "repository": "https://github.com/hrbrmstr/celestial-moniker",
-  "keywords": [
-    "markov",
-    "celestial",
-    "planets",
-    "planet-name-generator"
-  ],
-  "author": "boB Rudis",
-  "license": "ISC"
+	"name": "celstial-moniker",
+	"version": "0.1.1",
+	"description": "Generate a vector of `n` believable celestial (planetary) names using hidden Markov model.",
+	"main": "src/index.js",
+	"type": "module",
+	"cdnjs": "dist/index.min.js",
+	"jsdelivr": "dist/index.min.js",
+	"unpkg": "dist/index.min.js",
+	"exports": {
+		"umd": "./dist/index.min.js",
+		"default": "./src/index.js"
+	},
+	"scripts": {
+		"build": "rollup --config",
+		"prepare": "npm run build",
+		"test": "node ./test/index.test.js "
+	},
+	"files": [
+		"src",
+		"dist"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hrbrmstr/celestial-moniker"
+	},
+	"bugs": {
+		"url": "https://github.com/hrbrmstr/celestial-moniker/issues"
+	},
+	"homepage": "https://github.com/hrbrmstr/celestial-moniker#readme",
+	"keywords": [
+		"markov",
+		"celestial",
+		"planets",
+		"planet-name-generator"
+	],
+	"author": "boB Rudis",
+	"license": "MIT",
+	"devDependencies": {
+		"@rollup/plugin-babel": "^6.0.3",
+		"@rollup/plugin-commonjs": "^24.1.0",
+		"@rollup/plugin-json": "^6.0.0",
+		"@rollup/plugin-node-resolve": "^15.0.2",
+		"@rollup/plugin-terser": "^0.4.1",
+		"rollup": "^3.20.2"
+	}
 }
