@@ -97,7 +97,7 @@ const suffixes = [
  * 
  * [Original algorithm](https://github.com/sayamqazi/planet-name-generator)
  * 
- * @param {int} num_celestials numbner of celstial monikers to generate
+ * @param {int} num_celestials numbner of celestial monikers to generate
  * @returns {string[]}
  */
 export function generate_celestial_monikers(num_celestials) {
