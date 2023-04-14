@@ -9,7 +9,7 @@ export default {
 	output: {
 		format: "umd",
 		file: "dist/index.min.js",
-		name: "celestial-moniker",
+		name: "celestial-monikers",
 	},
 	plugins: [
 		commonjs(),
