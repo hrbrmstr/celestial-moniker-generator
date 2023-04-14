@@ -1,6 +1,6 @@
 {
 	"name": "celestial-moniker-generator",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"description": "Generate a vector of `n` believable celestial (planetary) names using hidden Markov model.",
 	"main": "src/index.js",
 	"type": "module",
@@ -8,12 +8,12 @@
 	"jsdelivr": "dist/index.min.js",
 	"readme": "README.md",
 	"unpkg": "dist/index.min.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs"
-    }
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs"
+		}
 	},
-  "scripts": {
+	"scripts": {
 		"build": "rollup --config",
 		"prepare": "npm run build",
 		"test": "node ./test/index.test.js "
