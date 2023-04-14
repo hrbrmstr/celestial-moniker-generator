@@ -1,5 +1,5 @@
 {
-	"name": "celstial-moniker",
+	"name": "celstial-monikers",
 	"version": "0.1.4",
 	"description": "Generate a vector of `n` believable celestial (planetary) names using hidden Markov model.",
 	"main": "src/index.js",
@@ -23,12 +23,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hrbrmstr/celestial-moniker"
+		"url": "git+https://github.com/hrbrmstr/celestial-monikers"
 	},
 	"bugs": {
-		"url": "https://github.com/hrbrmstr/celestial-moniker/issues"
+		"url": "https://github.com/hrbrmstr/celestial-monikers/issues"
 	},
-	"homepage": "https://github.com/hrbrmstr/celestial-moniker#readme",
+	"homepage": "https://github.com/hrbrmstr/celestial-monikesr#readme",
 	"keywords": [
 		"markov",
 		"celestial",
