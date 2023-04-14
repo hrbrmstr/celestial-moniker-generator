@@ -6,6 +6,7 @@
 	"type": "module",
 	"cdnjs": "dist/index.min.js",
 	"jsdelivr": "dist/index.min.js",
+	"readme": "README.md",
 	"unpkg": "dist/index.min.js",
 	"exports": {
 		"umd": "./dist/index.min.js",
@@ -28,7 +29,7 @@
 	"bugs": {
 		"url": "https://github.com/hrbrmstr/celestial-monikers/issues"
 	},
-	"homepage": "https://github.com/hrbrmstr/celestial-monikesr#readme",
+	"homepage": "https://github.com/hrbrmstr/celestial-monikesjusr#readme",
 	"keywords": [
 		"markov",
 		"celestial",
