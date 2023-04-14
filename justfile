@@ -23,3 +23,8 @@
 # see what versions are on npm
 @vers:
   npm view . versions
+
+# patch
+@patch:
+  npm version patch
+  npm publish
