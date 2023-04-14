@@ -8,11 +8,12 @@
 	"jsdelivr": "dist/index.min.js",
 	"readme": "README.md",
 	"unpkg": "dist/index.min.js",
-	"exports": {
-		"umd": "./dist/index.min.js",
-		"default": "./src/index.js"
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs"
+    }
 	},
-	"scripts": {
+  "scripts": {
 		"build": "rollup --config",
 		"prepare": "npm run build",
 		"test": "node ./test/index.test.js "
