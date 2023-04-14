@@ -28,3 +28,9 @@
 @patch:
   npm version patch
   npm publish
+
+# lazy
+@git:
+  git add -A
+  git commit -m "chore: lazy justfile commit"
+  git push
