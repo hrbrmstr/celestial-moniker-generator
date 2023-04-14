@@ -10,7 +10,7 @@
 	"unpkg": "dist/index.min.js",
 	"exports": {
 		".": {
-			"import": "./dist/index.mjs"
+			"import": "./dist/index.min.js"
 		}
 	},
 	"scripts": {
