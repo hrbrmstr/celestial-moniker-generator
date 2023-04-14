@@ -24,7 +24,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hrbrmstr/celestial-monikers"
+		"url": "https://github.com/hrbrmstr/celestial-monikers"
 	},
 	"bugs": {
 		"url": "https://github.com/hrbrmstr/celestial-monikers/issues"
